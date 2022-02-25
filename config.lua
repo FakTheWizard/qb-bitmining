@@ -3,7 +3,7 @@ Config = {}
 ----------optional section for shop to sell items-------------
 Config.shop = {
     name = "CPU Store",
-    coords = vector3(-562.4217, 227.63012, 74.890914),
+    coords = vector3(-1506.57, 1509.69, 115.29),
 }
 
 Config.ShopItems = {
@@ -11,7 +11,7 @@ Config.ShopItems = {
     items = {
         [1] = {
             name = "standard_cpu",
-            price = 1,
+            price = 500,
             amount = 500,
             info = {},
             type = "item",
@@ -19,7 +19,7 @@ Config.ShopItems = {
         },
         [2] = {
             name = "e2_cpu",
-            price = 1,
+            price = 1000,
             amount = 500,
             info = {},
             type = "item",
@@ -27,7 +27,7 @@ Config.ShopItems = {
         },
         [3] = {
             name = "quantum_cpu",
-            price = 1,
+            price = 1500,
             amount = 500,
             info = {},
             type = "item",
@@ -46,15 +46,15 @@ Config.MiningLab = {
     coords = vector3(2155.0, 2921.08, -81.08),
     mining_time =
     {
-        ["Standard CPU"] = 60, -- mining time for different rigs in seconds.
-        ["E2 CPU"] = 120,
-        ["Quantum CPU"] = 180,
+        ["Standard CPU"] = 150, -- mining time for different rigs in seconds.
+        ["E2 CPU"] = 300,
+        ["Quantum CPU"] = 600,
     }
 }
 
 -- rewards for each rig in crypto-------
 Config.Reward = {
-    ["standard_cpu"] = 20,
-    ["e2_cpu"] = 50,
-    ["quantum_cpu"] = 100,
+    ["standard_cpu"] = 15,
+    ["e2_cpu"] = 20,
+    ["quantum_cpu"] = 50,
 }
